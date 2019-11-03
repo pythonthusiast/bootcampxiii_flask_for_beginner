@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charsSt="UTF-8">
+    <title>Seven Habits Viewer</title>
+</head>
+<body>
+<h1>My Roles</h1>
+<ol>
+    {% for role in roles %}
+    <li>{{ role.role }}</li>
+    {% endfor %}
+</ol>
+</body>
+</html>
